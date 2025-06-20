@@ -8,7 +8,7 @@ class Listing(models.Model):
     """Model representing a property listing"""
     
     PROPERTY_TYPES = [
-        ('apartment', 'Apartment'),
+         ('apartment', 'Apartment'),
         ('house', 'House'),
         ('condo', 'Condominium'),
         ('villa', 'Villa'),
